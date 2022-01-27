@@ -1,0 +1,179 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  height: 60px;
+  flex-direction: row;
+  margin-left: 2.5%;
+  border-bottom: 2px solid #BEBEBE;
+  background-color: #F0F0F0;
+  padding: 10px !important;
+  margin-top: 20px;
+}
+
+.menu {
+  height: 60px;
+  flex-direction: row;
+  margin-left: 2.5%;
+  border-bottom: 2px solid #BEBEBE;
+  background-color: #B9D9EB;
+  padding: 10px !important;
+}
+
+.productName {  
+  float: left;
+  margin-top: -20px;
+}
+
+.quantity {
+  width: 20px;
+  height: 10px;
+  text-align: right;
+}
+
+.productDesc {
+  font-size: 10px;
+  float: left;
+  margin-top: -20px;
+}
+
+.containerLeft {
+  float: left;
+}
+
+.containerRight {
+  float: right;
+}
+
+.cartImage {
+  margin: -50px 0 0 150px;
+  cursor: pointer;
+}
+
+.App {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cartHeader {  
+  width: 100%;
+  padding: 10px;
+  height: 70px;
+  border-bottom: 5px solid #BEBEBE;
+  background-color: #F0F0F0;
+}
+
+.cardPriceDetails {
+  margin-left: 400px;
+  margin-top: 10px;
+}
+
+.chevron::before {
+	border-style: solid;
+	border-width: 0.2em 0.2em 0 0;
+	content: '';
+	display: inline-block;
+	height: 0.45em;
+	left: 0.25em;
+	position: relative;
+	top: 0.15em;
+	transform: rotate(-45deg);
+	vertical-align: top;
+	width: 0.45em;
+}
+
+.chevron.bottom:before {
+	transform: rotate(135deg);
+}
+
+.cartPrice {
+  margin-left:-30px;
+}
+
+.cartItems {
+  cursor: pointer;
+}
+
+.plusMinusIcons {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.products {
+  float: left;
+}
+
+.menuProducts {
+  float: left;
+}
+
+.menuName {
+  font-size: 18px;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: -10px;
+}
+
+.menuPrice {
+  font-size: 18px;
+  margin-left: 25px;
+  position: absolute;
+  margin-top: -10px;
+}
+
+.menuQuantity {
+  float: right;
+  margin-right: 20px;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.productsQuantities {
+  float: right;
+  margin-right: 150px;
+  margin-top: 17px;
+}
+
+.productPrice {
+  float: right;
+  margin-right: 20px;
+  font-size: 20px;
+  margin-top: 17px;
+}
+
+.products li {
+  list-style-image: url("assets/brand.png");
+}
+
+.menuProducts li {
+  list-style-type: none;
+}
+
+.menuDelete {
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.box {  
+  position: relative;
+  padding: 0px;
+}
+
+.box.arrow-top {
+  margin-top: 15px;
+}
+
+.box.arrow-top:after {
+  content: " ";
+  position: absolute;
+  right: 145px;
+  top: -15px;
+  border-top: none;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+  border-bottom: 15px solid #B9D9EB;
+}
